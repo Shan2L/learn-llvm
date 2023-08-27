@@ -1,0 +1,10 @@
+testcase:
+          int8: 
+                matmul_32x32x32: 
+                                - '--sparse group'
+                                - '--sparse bitmask'
+          float32:
+                matmul_1kx1kx1k:
+                matmul_2kx2kx2k:
+          uint8:
+                matmul_64x64x64:
